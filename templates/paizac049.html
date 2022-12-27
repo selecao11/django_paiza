@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>paiza</title>
+</head>
+<body>
+<h1>paiza c049</h1>
+<body>
+    <h1>c049</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <p>
+        ファイルを選択して下さい<br />
+        <input type="file" name="file_name" id="filename"/>
+        </p>
+        <button type="submit">送信</button>
+        <p>回答　{{ move_total }}{{ msg }}</p>
+    </form>
+
+</form>
+</body>
+</body>
+</html>
